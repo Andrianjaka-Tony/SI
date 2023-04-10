@@ -9,7 +9,7 @@
   align-items: flex-start;
   gap: 2px;
   transition: 0.3s;
-  transform: translateX(300px);
+  transform: translateX(100%);
   z-index: 999;
   background: #c8d6e5;
   transition-timing-function: ease-in;
@@ -68,4 +68,10 @@
   font-family: Poppins-Light;
   font-size: 12px;
   margin-top: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .side-bar {
+    width: 100vw;
+  }
 }

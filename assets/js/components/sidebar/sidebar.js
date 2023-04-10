@@ -96,7 +96,7 @@ export class Sidebar extends HTMLDivElement {
       ];
       let options = {
         duration: 200,
-        delay: 550,
+        delay: 450,
         fill: "forwards",
       };
 
