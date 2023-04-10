@@ -1,0 +1,26 @@
+.navbar {
+  position: sticky;
+  top: 10px;
+  margin-top: 10px;
+  width: 480px;
+  height: 60px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.357);
+  margin-left: calc(50vw - 250px);
+  border-radius: 15px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 998;
+  background: #fff;
+}
+
+.navbar-logo {
+  width: 80px;
+}
+
+.hamburger-icon {
+  width: 25px;
+  cursor: pointer;
+  opacity: 0.5;
+}
